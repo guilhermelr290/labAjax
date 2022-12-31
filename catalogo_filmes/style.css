@@ -1,30 +1,34 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  box-sizing: border-box;
   font-size: 30px;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgb(63, 65, 158);
+}
+
+div {
   text-align: center;
 }
 
 body {
   justify-content: center;
-  background-color: rgb(63, 65, 158);
   text-size-adjust: initial;
 }
 
 button {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  background-color: rgb(0, 0, 0);
   text-align: center;
   color: aliceblue;
   padding: 8px 16px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   border-radius: 12px;
   cursor: pointer;
   text-transform: uppercase;
   box-shadow: 2px 0 15px 0;
   transition: all 300ms;
+  background-color: rgb(0, 0, 0);
 }
 
 button:hover {
@@ -32,6 +36,4 @@ button:hover {
   color: black;
 }
 
-div {
-  text-align: center;
-}
+
